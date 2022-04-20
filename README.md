@@ -1,6 +1,16 @@
 # OpenCV-yolo-stream
 Real time object detection in (youtube) video stream:
-* Python 3.6 <br>
+- Python 3.6
+- OpenCV 3.4.2
+
+### Installation
+```bash
+python3 -m venv ./env
+source ./env/bin/activate
+pip install -r requirements.txt
+```
+
+==========================================================================================================
 ```bash
 pip install numpy pandas argparse datetime pafy streamlink flask_opencv_streamer youtube-dl flask-opencv-streamer opencv-contrib-python
 ```
